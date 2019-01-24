@@ -1,0 +1,20 @@
+<ListBucketResult xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
+<Name>noaa-nexrad-level2</Name>
+<Prefix>2016/01/01/KGSP</Prefix>
+<Marker/>
+<MaxKeys>1000</MaxKeys>
+<IsTruncated>false</IsTruncated>
+<Contents>
+<Key>2016/01/01/KGSP/KGSP20160101_000435_V06.gz</Key>
+<LastModified>2017-12-22T02:28:27.000Z</LastModified>
+<ETag>"e56efb4dac6daa5bc8c99532af7c36b8"</ETag>
+<Size>3232350</Size>
+<Owner>
+<ID>
+7f4603da1c74099579f30c0cb95d12b2762dfe960ccac8db42e709402a325a6d
+</ID>
+<DisplayName>aws-pds-noaa-bdp-nexrad</DisplayName>
+</Owner>
+<StorageClass>STANDARD</StorageClass>
+</Contents>
+</ListBucketResult>

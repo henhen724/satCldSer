@@ -1,0 +1,143 @@
+# Editor temporary/working/backup files #
+#########################################
+.#*
+[#]*#
+*~
+*$
+*.bak
+*.diff
+*.org
+.project
+.pydevproject
+*.rej
+.settings/
+.*.sw[nop]
+.sw[nop]
+*.tmp
+*.vim
+tags
+.idea/
+
+# Compiled source #
+###################
+*.a
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.py[ocd]
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.bz2
+*.bzip2
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.tbz2
+*.tgz
+*.zip
+
+# Python files #
+################
+# setup.py working directory
+build
+# sphinx build directory
+_build
+# setup.py dist directory
+dist
+doc/build
+doc/cdoc/build
+# Egg metadata
+*.egg-info
+# The shelf plugin uses this dir
+./.shelf
+MANIFEST
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Patches #
+###########
+*.patch
+*.diff
+
+# Unit test #
+#############
+.pytest_cache/
+
+# OS generated files #
+######################
+.DS_Store*
+.VolumeIcon.icns
+.fseventsd
+Icon?
+.gdb_history
+ehthumbs.db
+Thumbs.db
+
+# Things specific to this project #
+###################################
+.coverage
+sandbox
+pyart/version.py
+pyart/retrieve/_echo_steinermodule.c
+
+# Documentation files #
+#######################
+/doc/build
+/doc/source/user_reference/generated
+/doc/source/dev_reference/generated
+/doc/source/auto_examples
+
+# radar data files #
+####################
+
+# full sized sample data files
+pyart/testing/data/110041.mdv
+pyart/testing/data/110635.mdv
+pyart/testing/data/000000.mdv
+pyart/testing/data/XSW110520105408.RAW7HHF
+pyart/testing/data/XSW110520113537.RAW7HHL
+pyart/testing/data/KATX20130717_195021_V06
+pyart/testing/data/KLOT20030101_000921
+pyart/testing/data/Level2_KATX_20130717_1950.ar2v
+pyart/testing/data/sgpinterpolatedsondeC1.c1.20110510.000000.cdf
+pyart/testing/data/sgpsondewnpnC1.b1.20110520.082800.cdf
+pyart/testing/data/095636.mdv
+pyart/testing/data/CHL20120705_230123
+
+# example data (reuse testing data is much as possible)
+examples/plotting/110041.mdv
+examples/plotting/110635.mdv
+examples/plotting/XSW110520105408.RAW7HHF
+examples/plotting/XSW110520113537.RAW7HHL
+examples/plotting/KATX20130717_195021_V06
+examples/plotting/Level2_KATX_20130717_1950.ar2v
+examples/plotting/sgpxsaprrhicmacI5.c0.20110524.015604_NC4.nc
+examples/plotting/20110520100000_nex_3d.nc
+examples/plotting/20110520100000_nexrad_grid.nc
+examples/plotting/narr-a_221_20110520_0000_000.nc
+examples/plotting/nsaxsaprppiC1.a1.20140201.184802.nc
+examples/plotting/034142.mdv
+examples/plotting/220629.mdv
+
+examples/correct/095636.mdv
+examples/correct/sgpinterpolatedsondeC1.c1.20110510.000000.cdf
+examples/correct/sgpcsaprsurcmacI7.c0.20110520.095101.nc
+examples/correct/preprocessed.nc
+
+examples/mapping/110635.mdv
+examples/mapping/sex_20120520_0641.nc
+examples/mapping/swx_20120520_0641.nc
